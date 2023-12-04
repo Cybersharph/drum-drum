@@ -1,6 +1,3 @@
-
-
-
 let buttons = document.querySelectorAll("button");
 
 let buttonsArrayLength = buttons.length;
@@ -40,7 +37,6 @@ for (counter = 0; counter < buttonsArrayLength; counter++){
 }
 
 // events
-
 function playSound(file){
     let audio = new Audio(file);
     audio.play();
